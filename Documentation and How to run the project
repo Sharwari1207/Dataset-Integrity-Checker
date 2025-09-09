@@ -1,0 +1,40 @@
+# 🧹 Automated Data Quality Check Framework
+
+## 📌 Overview
+This project automates **data quality validation** to ensure dataset integrity before analytics and reporting.  
+It systematically checks for:
+- ✅ Missing values  
+- ✅ Duplicate records  
+- ✅ Anomalies (negative or zero values in numeric fields)  
+
+The script then generates a **structured Excel report** with results, making the QA process efficient and reducing manual effort.
+
+---
+
+## ⚙️ Tech Stack
+- **Python** (Pandas, OpenPyXL)  
+- **SQL** (for database-level checks)  
+- **Excel** (for reporting)  
+
+---
+
+## 📂 Project Structure
+
+---
+
+## 🚀 How to Run
+
+1. **Clone this repository**  
+   ```bash
+   git clone https://github.com/your-username/Automated-Data-Quality-Check.git
+   cd Automated-Data-Quality-Check/scripts
+
+2. Install dependencies
+pip install -r requirements.txt
+
+3. Run the script
+python data_quality_check.py
+
+4. Check the output
+The report will be saved in the reports/ folder as:
+data_quality_report.xlsx
