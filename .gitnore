@@ -1,0 +1,26 @@
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment folders
+.env/
+.venv/
+env/
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# MacOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# VS Code settings
+.vscode/
+
+# Excel temporary files
+~$*.xlsx
